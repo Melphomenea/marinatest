@@ -1,0 +1,9 @@
+#Idea
+.idea
+*.iml
+.DS_Store
+
+#Project
+target
+src/test/resources/local.properties
+*.log
