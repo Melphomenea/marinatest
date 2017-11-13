@@ -14,5 +14,11 @@ Please check the .gitignore file and edit the path for the webdriver that is in 
 ## Test env:
 Please run command "mvn test" after cloning
 
+## Important update (13th Nov 2017)
+In the com/marinatest/world/Hooks.java:
+(line 4): replace "import org.junit.After;" with "import cucumber.api.java.After;" in order for the shutDownWebDriver() function to work correctly
+
+
+
 
 
