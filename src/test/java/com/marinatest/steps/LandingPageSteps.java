@@ -21,12 +21,6 @@ public class LandingPageSteps {
         landingPage= PageFactory.initElements(this.webDriver, LandingPage.class);
     }
 
-    @After
-    public void testCleanup()
-    {
-        webDriver.quit();
-    }
-
     @Given("^I open the landing page$")
     public void iOpenTheLandingPage() {
         landingPage.goToLandingPage();
