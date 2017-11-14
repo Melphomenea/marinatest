@@ -28,13 +28,6 @@ public class NavigationBarSteps {
         errorPage = PageFactory.initElements(this.webDriver, ErrorPage.class);
     }
 
-    @After
-    public void testCleanup()
-    {
-        webDriver.quit();
-    }
-
-
     @And("^I click the UI Testing Button in the Navbar$")
     public void iClickUITestingButton() {
         formPage.clickUITestingButton();
