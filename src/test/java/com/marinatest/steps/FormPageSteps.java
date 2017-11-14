@@ -77,9 +77,4 @@ public class FormPageSteps {
     public void iShouldBeRedirectedToHelloPage(String formResult) {
         helloPage.isResultDisplayed(formResult);
     }
-    @After
-    public void testCleanup()
-    {
-        webDriver.quit();
-    }
 }
